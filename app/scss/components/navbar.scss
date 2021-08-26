@@ -1,0 +1,19 @@
+@use '../util' as util;
+
+.navbar {
+  height: util.rem(60);
+  display: flex;
+  padding: util.rem(10);
+
+  &__title_container {
+    display: flex;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: util.rem(5);
+    padding: 0 util.rem(15);
+    h3 {
+      font-weight: normal;
+    }
+  }
+}

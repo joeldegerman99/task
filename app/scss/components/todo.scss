@@ -1,0 +1,6 @@
+@use '../util' as util;
+
+.todo {
+  background-color: lightpink;
+  border-radius: util.rem(5);
+}
